@@ -2,15 +2,13 @@ body {
   font-family: "Crimson Text", serif;
   padding: 2em;
   font-size: 1em;
+  width:70%;
+  margin: 0 auto;
 }
 
-.contact-details {
-}
-
-.name {
+.name, .name a {
   color: #00C5D1;
   font-size: 1.7rem;
-  white-space:nowrap;
   display: inline;
 }
 
@@ -25,6 +23,10 @@ body {
   margin-top: -1.2em;
 }
 
+.address-link {
+  padding-top: -0.4em;
+}
+
 .subsection {
   font-size: 1.2rem;
   color: #818181;
@@ -34,6 +36,10 @@ body {
 
 .subsection--title {
   padding-top: 0.8em;
+}
+
+.listofskills {
+  padding-top: 1.2em;
 }
 
 .subsection--position {
@@ -67,9 +73,13 @@ p {
 }
 
 /* List Styling */
+.skills ul li {
+  padding-bottom: 1em;
+}
+
 .skills ul li:before {
  content: '\00B0';
- font-size: 2em;
+ font-size: 1em;
  display: inline-block;
  margin-right: 5px;
  position: relative;
