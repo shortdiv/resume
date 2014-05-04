@@ -1,0 +1,120 @@
+body {
+  font-family: "Crimson Text", serif;
+  padding: 2em;
+  font-size: 1em;
+  width:70%;
+  margin: 0 auto;
+}
+
+.name, .name a {
+  color: #00C5D1;
+  font-size: 1.7rem;
+  display: inline;
+}
+
+.divya--topline {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.address {
+  margin-top: -1.2em;
+}
+
+.address-link {
+  padding-top: -0.4em;
+}
+
+.subsection {
+  font-size: 1.2rem;
+  color: #818181;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #818181;
+}
+
+.subsection--title {
+  padding-top: 0.8em;
+}
+
+.listofskills {
+  padding-top: 1.2em;
+}
+
+.subsection--position {
+  font-style: italic;
+  margin-top: -0.5em;
+}
+
+.subsection--description {
+  padding-top: 0.7em;
+}
+
+.objective, .education, .work-experience, .skills{
+  padding-top: 2em;
+}
+
+
+p {
+  padding-bottom: 0.4em;
+  line-height: 1.4em;
+}
+/* Styling */
+
+.align-right {
+  float: right;
+}
+
+.vertical-line {
+  border-left: 1px solid #000;
+  padding-left: 0.7em;
+  margin-left: 0.6em;
+}
+
+/* List Styling */
+.skills ul li {
+  padding-bottom: 1em;
+}
+
+.skills ul li:before {
+ content: '\00B0';
+ font-size: 1em;
+ display: inline-block;
+ margin-right: 5px;
+ position: relative;
+ padding-right: 1em;
+ width: 20px;
+ top: 50%;
+ left: 20px;
+}
+
+/* Widgets*/
+
+.links {
+  padding-right: 0.8em;
+}
+
+.socialicons--twitter {
+ width: 20px;
+ height: 20px;
+ display: inline-block;
+ background: url("../img/twitter.svg") no-repeat center;
+ background-size: 20px 20px;
+}
+
+.socialicons--github {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../img/octocat.svg") no-repeat center;
+  background-size: 20px 20px;
+}
+
+.socialicons--instagram {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url("../img/instagram.svg") no-repeat center;
+  background-size: 20px 20px;
+}
